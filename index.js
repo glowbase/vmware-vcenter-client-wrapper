@@ -98,10 +98,6 @@ web.get('/', (req, res) => {
     res.status(200).sendFile(webPath + '/assets/pages/home.html'); 
 });
 
-web.get('/overview/monitoring', (req, res) => {
-    res.status(200).sendFile(webPath + '/assets/pages/monitoring.html'); 
-});
-
 web.get('/inventory/hosts', (req, res) => {
     res.status(200).sendFile(webPath + '/assets/pages/hosts.html'); 
 });
